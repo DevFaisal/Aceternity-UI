@@ -49,11 +49,11 @@ export const elements = [
 function Components() {
   return (
     <Container>
-      <main className="flex justify-between h-screen">
+      <main className="flex justify-between fixed max-w-7xl w-full mx-auto">
         <section className="p-5 w-1/4 h-[100vh]">
           <div>
             <h1 className="font-semibold py-8">All Components</h1>
-            <div className="flex h-[80vh] overflow-y-scroll flex-col gap-4">
+            <div className="flex h-[80vh] overflow-y-scroll pb-7 flex-col gap-4">
               {elements?.map((el, idx) => (
                 <NavLink
                   key={idx}
@@ -70,7 +70,7 @@ function Components() {
             </div>
           </div>
         </section>
-        <section className="flex h-screen justify-center items-center  w-full flex-col gap-4">
+        <section className="flex max-h-screen overflow-y-scroll bg-zinc-900 justify-center items-center  w-full flex-col gap-4">
           <ComponentsOutlet />
         </section>
       </main>

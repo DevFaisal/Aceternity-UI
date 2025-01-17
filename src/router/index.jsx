@@ -67,7 +67,11 @@ const router = createBrowserRouter([
             element: <ComponentsOutlet />,
             children: elements.map((element) => ({
               path: element.link,
-              element: <h1>{element.name}</h1>,
+              element: (
+                <div className="text-5xl flex justify-center items-center h-screen overflow-y-scroll font-semibold">
+                  <h1>{element.name}</h1>
+                </div>
+              ),
             })),
           },
         ],

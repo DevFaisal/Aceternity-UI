@@ -7,7 +7,7 @@ function Home() {
   return (
     <main>
       <Container>
-        <main className="flex justify-between gap-14 pt-36 h-screen">
+        <main className="flex justify-between gap-16  h-screen">
           <LeftSection />
           <RightSection />
         </main>

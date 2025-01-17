@@ -8,7 +8,7 @@ import ChangingText from "./ui/ChangingText";
 
 const LeftSection = () => {
   return (
-    <section className="flex flex-col gap-5 w-1/2">
+    <section className="flex flex-col pt-36 gap-5 w-1/2">
       <div>
         <IntroButton />
       </div>
