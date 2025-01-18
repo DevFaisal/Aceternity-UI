@@ -17,7 +17,7 @@ function Socials() {
       </span>
       <span className="flex justify-center items-center gap-3">
         <RiTailwindCssFill className="text-gray-500" size={"2.5em"} />
-        <h1 className="text-sm text-gray-500">TailwindCSS</h1>
+        <h1 className="text-sm text-gray-500">Tailwind CSS</h1>
       </span>
       <span className="flex justify-center items-center gap-3">
         <TbBrandFramerMotion className="text-gray-500" size={"2.5em"} />

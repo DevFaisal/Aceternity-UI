@@ -85,7 +85,7 @@ function CurserReveal() {
     <div
       ref={curserRef}
       onMouseMove={handleMouseMove}
-      className="relative flex flex-col  items-start gap-3 h-63 overflow-hidden bg-zinc-100 rounded-xl w-full border-[1px] border-zinc-100"
+      className="relative z-10 flex flex-col  items-start gap-3 h-63 overflow-hidden bg-zinc-100 rounded-xl w-full border-[1px] border-zinc-100"
     >
       <span
         className={`absolute ${

@@ -8,13 +8,13 @@ function NavBar() {
   const navItems = [
     {
       name: "Components",
-      link: "/components",
-      label: false,
+      link: "/components/3d-card-effect",
+      label: true,
     },
     {
       name: "Templates",
       link: "/templates",
-      label: true,
+      label: false,
     },
     {
       name: "Pricing",
@@ -29,7 +29,7 @@ function NavBar() {
   ];
 
   return (
-    <nav className="flex justify-between items-center py-4 bg-black">
+    <nav className="z-50 flex justify-between items-center py-4 bg-black">
       <section className="flex justify-center items-center gap-5 text-sm">
         <div className="flex justify-center items-center gap-3">
           <img
