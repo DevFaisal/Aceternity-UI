@@ -7,12 +7,16 @@ import MiddleComponent from "../components/MiddleComponent";
 function Home() {
   return (
     <main>
-      <Container>
-        <main className="flex justify-between gap-16">
-          <LeftSection />
-          <RightSection />
-        </main>
-      </Container>
+      {/* Top section */}
+      <section>
+        <Container>
+          <main className="flex justify-between gap-16">
+            <LeftSection />
+            <RightSection />
+          </main>
+        </Container>
+      </section>
+      {/* Middle section */}
       <section>
         <MiddleComponent />
       </section>
